@@ -4,6 +4,7 @@ import App from "./components/App";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap";
 import * as serviceWorker from "./serviceWorker";
+import "./assets/scss/blk-design-system.scss";
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
